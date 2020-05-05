@@ -13,6 +13,8 @@ struct ContentView: View {
     @State var show = false
     @State var showCard = true
     @State var viewState = CGSize.zero
+    @State var bottomCardState = CGSize.zero
+    @State var showFullBottomCard = false
     
     var body: some View {
         ZStack {
@@ -82,8 +84,34 @@ struct ContentView: View {
             
             BottomCardView()
                 .offset(x: 0.0, y: showCard ? 360 : 1000.0)
+                .offset(y: self.bottomCardState.height)
                 .blur(radius: show ? 20 : 0)
                 .animation(.timingCurve(0.2, 0.8, 0.2, 1, duration: 0.8))
+                .gesture(DragGesture()
+                    .onChanged{value in
+                        self.bottomCardState = value.translation
+                        if self.showFullBottomCard{
+                            self.bottomCardState.height += -300
+                        }
+                        
+                        if self.bottomCardState.height < -300{
+                            self.bottomCardState.height = -300
+                        }
+                }
+                .onEnded{ value in
+                    if(self.bottomCardState.height > 50){
+                        self.showCard = false
+                    }
+                    
+                    if(self.bottomCardState.height < -100 && !self.showFullBottomCard) || (self.bottomCardState.height < -250 && self.showFullBottomCard){
+                        self.bottomCardState.height = -300
+                        self.showFullBottomCard = true
+                    }else{
+                        self.bottomCardState = .zero
+                        self.showFullBottomCard = false
+                    }
+                }
+            )
         }
     }
 }
