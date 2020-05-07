@@ -16,6 +16,7 @@
 		CEDFB00C245F6F0100E51BA4 /* DesignCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFB00B245F6F0100E51BA4 /* DesignCodeTests.swift */; };
 		CEDFB017245F6F0100E51BA4 /* DesignCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFB016245F6F0100E51BA4 /* DesignCodeUITests.swift */; };
 		CEDFB0252462D59600E51BA4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFB0242462D59600E51BA4 /* MenuView.swift */; };
+		CEDFB0272464964300E51BA4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFB0262464964300E51BA4 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CEDFB016245F6F0100E51BA4 /* DesignCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeUITests.swift; sourceTree = "<group>"; };
 		CEDFB018245F6F0100E51BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDFB0242462D59600E51BA4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		CEDFB0262464964300E51BA4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +106,12 @@
 				CEDFAFF4245F6EFD00E51BA4 /* AppDelegate.swift */,
 				CEDFAFF6245F6EFD00E51BA4 /* SceneDelegate.swift */,
 				CEDFAFF8245F6EFD00E51BA4 /* ContentView.swift */,
+				CEDFB0242462D59600E51BA4 /* MenuView.swift */,
 				CEDFAFFA245F6F0100E51BA4 /* Assets.xcassets */,
 				CEDFAFFF245F6F0100E51BA4 /* LaunchScreen.storyboard */,
 				CEDFB002245F6F0100E51BA4 /* Info.plist */,
 				CEDFAFFC245F6F0100E51BA4 /* Preview Content */,
-				CEDFB0242462D59600E51BA4 /* MenuView.swift */,
+				CEDFB0262464964300E51BA4 /* HomeView.swift */,
 			);
 			path = DesignCode;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				CEDFAFF5245F6EFD00E51BA4 /* AppDelegate.swift in Sources */,
 				CEDFB0252462D59600E51BA4 /* MenuView.swift in Sources */,
 				CEDFAFF7245F6EFD00E51BA4 /* SceneDelegate.swift in Sources */,
+				CEDFB0272464964300E51BA4 /* HomeView.swift in Sources */,
 				CEDFAFF9245F6EFD00E51BA4 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
