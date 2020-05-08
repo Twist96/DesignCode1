@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State var show = false
-    @State var showCard = true
+    @State var showCard = false
     @State var viewState = CGSize.zero
     @State var bottomCardState = CGSize.zero
     @State var showFullBottomCard = false

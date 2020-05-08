@@ -10,6 +10,7 @@ import SwiftUI
 
 struct HomeView: View {
     @Binding var showProfile: Bool
+    @State var showUpdate: Bool = false
     var body: some View {
         VStack {
             HStack {
@@ -17,15 +18,34 @@ struct HomeView: View {
                     .font(.system(size: 28, weight: .bold))
                 Spacer()
                 AvatarView(showProfile: $showProfile)
+                Button(action: {
+                    self.showUpdate.toggle()
+                }) {
+                Image(systemName: "bell")
+                    .renderingMode(.original)
+                    .frame(width:36, height: 36)
+                    .background(Color.white)
+                    .clipShape(Circle())
+                    .shadow(color: Color.black.opacity(0.1), radius: 1, x: 0, y: 1)
+                    .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: 10)
+                }.sheet(isPresented: $showUpdate){
+                    ContentView()
+                }
             }
             .padding(.horizontal)
             .padding(.leading, 14)
             .padding(.top, 30)
             
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 30) {
+                HStack(spacing: 20) {
                     ForEach(sectionData) { item in
-                        SectionView(section: item)
+                        GeometryReader { geometry in
+                            SectionView(section: item)
+                            .rotation3DEffect(Angle(degrees:
+                                Double(geometry.frame(in: .global).minX - 30) / -20
+                            ), axis: (x: 0.0, y: 10.0, z: 0.0))
+                        }
+                        .frame(width: 275, height: 275)
                     }
                 }
                 .padding(30)
