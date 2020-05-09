@@ -19,6 +19,7 @@
 		CEDFB0272464964300E51BA4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFB0262464964300E51BA4 /* Home.swift */; };
 		CEDFB02924653F7D00E51BA4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFB02824653F7D00E51BA4 /* HomeView.swift */; };
 		CEDFB02B24657DB500E51BA4 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFB02A24657DB500E51BA4 /* UpdateList.swift */; };
+		CEDFB02D24662A7A00E51BA4 /* UpdateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFB02C24662A7A00E51BA4 /* UpdateDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		CEDFB0262464964300E51BA4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		CEDFB02824653F7D00E51BA4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CEDFB02A24657DB500E51BA4 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		CEDFB02C24662A7A00E51BA4 /* UpdateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				CEDFB0262464964300E51BA4 /* Home.swift */,
 				CEDFB02824653F7D00E51BA4 /* HomeView.swift */,
 				CEDFB02A24657DB500E51BA4 /* UpdateList.swift */,
+				CEDFB02C24662A7A00E51BA4 /* UpdateDetailView.swift */,
 			);
 			path = DesignCode;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			files = (
 				CEDFAFF5245F6EFD00E51BA4 /* AppDelegate.swift in Sources */,
 				CEDFB02B24657DB500E51BA4 /* UpdateList.swift in Sources */,
+				CEDFB02D24662A7A00E51BA4 /* UpdateDetailView.swift in Sources */,
 				CEDFB0252462D59600E51BA4 /* MenuView.swift in Sources */,
 				CEDFAFF7245F6EFD00E51BA4 /* SceneDelegate.swift in Sources */,
 				CEDFB02924653F7D00E51BA4 /* HomeView.swift in Sources */,
