@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7A9728246DDA9C00986B57 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A9727246DDA9C00986B57 /* Modifier.swift */; };
+		CE7A972A246DE07C00986B57 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = CE7A9729246DE07C00986B57 /* Fonts */; };
 		CE8C7B8C246CA93F00012C29 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C7B8B246CA93F00012C29 /* RingView.swift */; };
 		CEA1F8752466908200A52DB8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1F8742466908200A52DB8 /* TabBar.swift */; };
 		CEDFAFF5245F6EFD00E51BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAFF4245F6EFD00E51BA4 /* AppDelegate.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE7A9727246DDA9C00986B57 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		CE7A9729246DE07C00986B57 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		CE8C7B8B246CA93F00012C29 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		CEA1F8742466908200A52DB8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		CEDFAFF1245F6EFD00E51BA4 /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,8 +123,10 @@
 				CEDFAFF6245F6EFD00E51BA4 /* SceneDelegate.swift */,
 				CEDFAFF8245F6EFD00E51BA4 /* ContentView.swift */,
 				CE8C7B8B246CA93F00012C29 /* RingView.swift */,
+				CE7A9727246DDA9C00986B57 /* Modifier.swift */,
 				CEDFB0242462D59600E51BA4 /* MenuView.swift */,
 				CEDFAFFA245F6F0100E51BA4 /* Assets.xcassets */,
+				CE7A9729246DE07C00986B57 /* Fonts */,
 				CEDFAFFF245F6F0100E51BA4 /* LaunchScreen.storyboard */,
 				CEDFB002245F6F0100E51BA4 /* Info.plist */,
 				CEDFAFFC245F6F0100E51BA4 /* Preview Content */,
@@ -264,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7A972A246DE07C00986B57 /* Fonts in Resources */,
 				CEDFB001245F6F0100E51BA4 /* LaunchScreen.storyboard in Resources */,
 				CEDFAFFE245F6F0100E51BA4 /* Preview Assets.xcassets in Resources */,
 				CEDFAFFB245F6F0100E51BA4 /* Assets.xcassets in Resources */,
@@ -299,6 +306,7 @@
 				CE8C7B8C246CA93F00012C29 /* RingView.swift in Sources */,
 				CEDFAFF7245F6EFD00E51BA4 /* SceneDelegate.swift in Sources */,
 				CEDFB02924653F7D00E51BA4 /* HomeView.swift in Sources */,
+				CE7A9728246DDA9C00986B57 /* Modifier.swift in Sources */,
 				CEDFB0272464964300E51BA4 /* Home.swift in Sources */,
 				CEDFAFF9245F6EFD00E51BA4 /* ContentView.swift in Sources */,
 				CEA1F8752466908200A52DB8 /* TabBar.swift in Sources */,
